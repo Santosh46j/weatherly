@@ -1,0 +1,94 @@
+body{
+    width: 800px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    background: url("../images/weather.jpg");
+    background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.ghost-input, p {
+    display: block;
+    font-weight: 225;
+    width: 100%;
+    font-size: 22px;
+    border: 0px;
+    outline: none;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #4b545f;
+    background: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 15px;
+    margin: 30px 0px;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    border-radius: 10px;
+}
+
+.ghost-input:focus {
+    border-bottom:1px solid #ddd;
+    border-radius: 10px;
+  }
+
+  .ghost-button {
+    background-color: transparent;
+    border:2px solid #515151;
+    padding:10px 30px; 
+    width: 100%;
+    min-width: 350px;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+
+  }
+
+.ghost-button:hover {
+  border:2px solid #ddd;
+  }
+
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0.7;
+    background-color: #000000;
+    border-radius: 10px;
+  }
+  fieldset {
+    display: block;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0em;
+    -webkit-padding-start: 0em;
+    -webkit-padding-end: 0em;
+    -webkit-padding-after: 0em;
+    border: 0px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    min-width: -webkit-min-content;
+    padding: 30px;
+  }
